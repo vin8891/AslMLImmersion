@@ -17,7 +17,8 @@ all: clean install
 kernels: \
  object_detection_kernel \
  pytorch_kfp_kernel \
- langchain_kernel
+ langchain_kernel \
+ langchain_components_kernel
 
 .PHONY: clean
 clean:
